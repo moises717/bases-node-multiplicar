@@ -1,0 +1,17 @@
+{
+  "name": "03-base-node",
+  "version": "1.0.0",
+  "description": "bases de node js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js base=5"
+  },
+  "author": "Moises Barillas",
+  "license": "MIT",
+  "devDependencies": {
+    "yargs": "16.1.1"
+  },
+  "dependencies": {
+    "colors": "1.4.0"
+  }
+}
